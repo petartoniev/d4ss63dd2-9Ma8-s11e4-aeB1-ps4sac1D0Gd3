@@ -12,7 +12,7 @@ import java.util.List;
 @Setter
 public class CovidStatisticsResponse {
     @JsonProperty("ID")
-    private String ID;
+    private String id;
     @JsonProperty("Message")
     private String message;
     @JsonProperty("Global")

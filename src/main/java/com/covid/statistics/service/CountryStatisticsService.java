@@ -33,8 +33,8 @@ public class CountryStatisticsService {
         return "Successfully imported country statistics.";
     }
 
-    public List<Country> listAllCountryStatistics() throws JsonProcessingException {
-        return (List<Country>) countryRepository.findAll();
+    public List<Country> listAllCountryStatistics() {
+        return countryRepository.findAll();
     }
 
     public Country getCountryStatistics(String countryId) {
